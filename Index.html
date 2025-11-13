@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Mon FPS en JS</title>
+    <style>
+        body { margin: 0; overflow: hidden; }
+        #crosshair { /* Viseur */
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 4px;
+            height: 4px;
+            background: red;
+            transform: translate(-50%, -50%);
+            z-index: 10;
+        }
+    </style>
+</head>
+<body>
+    <div id="crosshair"></div>
+    <script src="chemin/vers/three.min.js"></script>
+    <script src="game.js"></script>
+</body>
+</html>
